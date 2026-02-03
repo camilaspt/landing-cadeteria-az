@@ -63,13 +63,13 @@ export default function Home() {
           <div className="fade-in-up delay-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="#contacto"
-              className="bg-[#9AFF4F] text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-[#7acc3d] transition-all pulse-button"
+              className="bg-[#9AFF4F] text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-[#7acc3d] transition-all pulse-button w-full sm:w-auto text-center"
             >
               Solicitar Servicio
             </a>
             <a
               href="#servicios"
-              className="border-2 border-[#9AFF4F]/50 text-white px-8 py-4 rounded-full font-semibold text-lg hover:border-[#9AFF4F] hover:bg-[#9AFF4F]/10 transition-all"
+              className="border-2 border-[#9AFF4F]/50 text-white px-8 py-4 rounded-full font-semibold text-lg hover:border-[#9AFF4F] hover:bg-[#9AFF4F]/10 transition-all w-full sm:w-auto text-center"
             >
               Ver Servicios
             </a>
