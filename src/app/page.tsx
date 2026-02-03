@@ -268,7 +268,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="font-semibold text-base md:text-lg break-all">contacto@azcadeteria.com</p>
+                    <p className="font-semibold text-base md:text-lg break-all">az.cadeteria@hotmail.com</p>
                   </div>
                 </div>
 
