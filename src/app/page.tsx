@@ -57,7 +57,7 @@ export default function Home() {
           
           <p className="fade-in-up delay-3 text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
             Servicio de cadetería con entregas rápidas, seguras y confiables. 
-            De la <span className="text-[#9AFF4F] font-semibold">A</span> a la <span className="text-[#9AFF4F] font-semibold">Z</span>.
+            De la <span className="text-[#9AFF4F] font-semibold">A</span> a la <span className="text-[#9AFF4F] font-semibold">Z</span>: un servicio con todas las letras.
           </p>
           
           <div className="fade-in-up delay-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -214,6 +214,64 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Payment Methods Section */}
+      <section id="medios-pago" className="py-24 px-6 bg-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Medios de <span className="text-[#9AFF4F]">Pago</span>
+            </h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Aceptamos diversas formas de pago para tu comodidad
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-6 mb-8">
+            {/* Efectivo */}
+            <div className="bg-[#111111] border border-[#9AFF4F]/20 rounded-2xl p-6 flex flex-col items-center text-center hover:border-[#9AFF4F]/50 transition-all">
+              <div className="w-14 h-14 bg-[#9AFF4F]/10 rounded-xl flex items-center justify-center mb-4">
+                <svg className="w-7 h-7 text-[#9AFF4F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-2">Efectivo</h3>
+              <p className="text-gray-400 text-sm">Pago al momento de la entrega</p>
+            </div>
+
+            {/* Transferencia */}
+            <div className="bg-[#111111] border border-[#9AFF4F]/20 rounded-2xl p-6 flex flex-col items-center text-center hover:border-[#9AFF4F]/50 transition-all">
+              <div className="w-14 h-14 bg-[#9AFF4F]/10 rounded-xl flex items-center justify-center mb-4">
+                <svg className="w-7 h-7 text-[#9AFF4F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-2">Transferencia</h3>
+              <p className="text-gray-400 text-sm">Transferencia</p>
+            </div>
+
+            {/* QR */}
+            <div className="bg-[#111111] border border-[#9AFF4F]/20 rounded-2xl p-6 flex flex-col items-center text-center hover:border-[#9AFF4F]/50 transition-all">
+              <div className="w-14 h-14 bg-[#9AFF4F]/10 rounded-xl flex items-center justify-center mb-4">
+                <svg className="w-7 h-7 text-[#9AFF4F]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-2">QR</h3>
+              <p className="text-gray-400 text-sm">Pago con QR</p>
+            </div>
+          </div>
+
+          <div className="bg-[#9AFF4F]/10 border border-[#9AFF4F]/30 rounded-xl p-4 flex items-start gap-3">
+            <svg className="w-6 h-6 text-[#9AFF4F] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+            <p className="text-gray-300 text-sm sm:text-base">
+              <span className="font-semibold text-[#9AFF4F]">Por seguridad,</span> siempre solicitamos comprobante de pago en operaciones virtuales.
+            </p>
           </div>
         </div>
       </section>
