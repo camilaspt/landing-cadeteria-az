@@ -256,7 +256,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">WhatsApp</p>
-                    <p className="font-semibold text-lg">+54 93400 65-7887</p>
+                    <p className="font-semibold text-lg">+54 9xxxxxxxxx</p>
                   </div>
                 </div>
 
@@ -296,7 +296,7 @@ export default function Home() {
                 <h4 className="text-2xl font-bold">¿Necesitas un envío?</h4>
                 <p className="text-gray-400 text-base sm:text-lg px-2">Escribinos por WhatsApp y coordinamos tu entrega al instante</p>
                 <a
-                  href="https://wa.me/543400657887"
+                  href="https://wa.me/xxxxxxxxxxx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#25D366] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#20bd5a] transition-colors flex items-center gap-3 w-full sm:w-auto justify-center"
